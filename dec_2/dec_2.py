@@ -1,5 +1,5 @@
 import operator
-f = open("C:/Users/Oskar/Documents/Python/24 days of code/dec_2.txt", "r")
+f = open("C:/Users/Oskar/Documents/Python/24 days of code/dec_2/dec_2.txt", "r")
 list = f.readlines()
 counter =0
 
