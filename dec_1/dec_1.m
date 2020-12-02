@@ -11,10 +11,8 @@ for i =1:200
             end 
     end
 end
-a1=A(Y)+A(I);
-a2=A(Y)*A(I);
-format_a="Q1\n%d + %d = %d\n%d * %d = %d";
-sprintf(format_a,A(Y),A(I),a1,A(Y),A(I),a2)
+a2=A(Y)*A(I)
+
 
 %%
 clc
@@ -30,7 +28,4 @@ for i =1:200
         end
     end
 end
-b1=A(Y)+A(I)+A(U);
-b2=A(Y)*A(I)*A(U);
-format_a="Q2\n%d + %d + %d = %d\n%d * %d * %d = %d";
-sprintf(format_a,A(Y),A(I),A(U),b1,A(Y),A(I),A(U),b2)
+A(Y)*A(I)*A(U)
